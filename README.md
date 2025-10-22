@@ -5,21 +5,19 @@
 
 <!-- Ryu lançando Hadoken + texto animado (inline SVG corrigido) -->
 
-  <svg width="400" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Ryu Hadoken">
-    <!-- Ryu (ícone representativo) -->
-    <text x="40" y="100" font-size="32">👊</text>
+  ```html
+<!-- Bola de fogo (Hadoken) -->
+<circle cx="70" cy="95" r="8" fill="#00ccff">
+  <animate attributeName="cx" from="70" to="340" dur="2s" repeatCount="1" fill="freeze" />
+</circle>
 
-    <!-- Bola de fogo (Hadoken) -->
-    <circle cx="70" cy="95" r="8" fill="#00ccff">
-      <animate attributeName="cx" from="70" to="340" dur="2s" begin="0s" fill="freeze" />
-    </circle>
+<!-- Texto que aparece após o Hadoken -->
+<text x="60" y="50" font-size="22" fill="white" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" begin="2s" dur="1s" fill="freeze" />
+  Hello! I'm Lucas Sukar 🥋
+</text>
+```
 
-    <!-- Texto que aparece após o Hadoken -->
-    <text x="200" y="50" text-anchor="middle" font-size="22" fill="white" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" begin="2s" dur="1s" fill="freeze" />
-      Hello! I'm Lucas Sukar 👋
-    </text>
-  </svg>
 
 <div align="center">
   <h3>📊 Most used languages</h3>
