@@ -5,13 +5,15 @@
 
 <!-- Animação do Ryu (arquivo externo SVG em /assets) -->
 <!-- Animação do Ryu lançando Hadoken -->
+<!-- Animação do Ryu lançando Hadoken -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/assets/ryu-hadoken.gif" 
+  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/assets/ryu-hadoken.svg" 
        alt="Ryu Hadoken Animation" 
        width="500">
 </p>
 
 <h1 align="center">Hello! I'm Lucas Sukar 👋</h1>
+
 
 
 
