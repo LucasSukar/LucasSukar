@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"   # opcional: executa a cada 12 horas
+    - cron: "0 */12 * * *"   # executa a cada 12 horas
   workflow_dispatch:
 
 jobs:
@@ -20,10 +20,9 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: LucasSukar
-          contribution_width: 53     # ← mais colunas
+          contribution_width: 53
           contribution_height: 7
           outputs: dist/github-contribution-grid-snake.svg
-
 
       - name: Prepare output folder
         run: |
@@ -36,6 +35,6 @@ jobs:
           commit_message: "chore: update snake animation"
           file_pattern: output/github-contribution-grid-snake.svg
           branch: main
-          push_options: --force        # 👈 força o push para resolver conflitos
+          push_options: --force   # 👈 adiciona push forçado para evitar conflito
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
