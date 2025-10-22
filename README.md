@@ -1,26 +1,21 @@
 ### Oiii! Eu sou o Lucas Sukar 👋  
-Instrutor, desenvolvedor front-end e apaixonado por tecnologia!
+ desenvolvedor e apaixonado por tecnologia!
 
 ---
 
-<div align="center">
-
-💻 **Tecnologias que eu uso no meu dia a dia:**  
-<br>
-
-<img src="https://skillicons.dev/icons?i=js,ts,react,html,css,python,cs,git,github" /><br>
-
----
-
-📊 **Meus Status no GitHub:**  
 <br>
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=LucasSukar&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasSukar&layout=compact&langs_count=8&theme=radical"/>
 
 ---
+<div align="center">
+ 
+<br>
 
-🌐 **Onde me encontrar:**  
+<img src="https://skillicons.dev/icons?i=js,ts,react,html,css,python,cs,git,github" /><br>
+
+---
 <br>
 
 <a href="https://www.instagram.com/lucassukar" target="_blank">
@@ -37,4 +32,3 @@ Instrutor, desenvolvedor front-end e apaixonado por tecnologia!
 
 ---
 
-⭐ *"Sempre aprendendo e construindo coisas legais!"*
