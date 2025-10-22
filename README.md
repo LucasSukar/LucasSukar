@@ -4,14 +4,15 @@
 </p>
 
 <!-- Ryu lançando Hadoken + texto animado -->
+<!-- Ryu lançando Hadoken + texto animado (inline SVG) -->
 <p align="center">
-  <svg width="400" height="150" xmlns="http://www.w3.org/2000/svg">
-    <!-- Ryu (ícone simples representando o personagem) -->
+  <svg width="400" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ryu Hadoken">
+    <!-- Ryu (ícone representativo) -->
     <text x="40" y="100" font-size="32">👊</text>
 
     <!-- Bola de fogo (Hadoken) -->
     <circle cx="70" cy="95" r="8" fill="#00ccff">
-      <animate attributeName="cx" from="70" to="340" dur="2s" repeatCount="1" fill="freeze" />
+      <animate attributeName="cx" from="70" to="340" dur="2s" begin="0s" fill="freeze" />
     </circle>
 
     <!-- Texto que aparece após o Hadoken -->
@@ -21,6 +22,7 @@
     </text>
   </svg>
 </p>
+
 
 <div align="center">
   <h3>📊 Most used languages</h3>
