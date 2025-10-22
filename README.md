@@ -3,8 +3,9 @@
   <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/assets/footer.svg" alt="footer" width="100%"/>
 </p>
 
+<!-- Animação do Ryu (arquivo externo SVG em /assets) -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/assets/ryu-hadoken.svg" alt="Ryu Hadoken - Lucas Sukar" width="600"/>
+  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/assets/ryu-hadoken.svg" alt="Ryu Hadoken" width="600" />
 </p>
 
 
