@@ -1,5 +1,7 @@
-<!-- Animação no topo -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4db,100:0083b0&height=120&section=header"/>
+<!-- header -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/assets/header.svg" alt="header" width="100%"/>
+</p>
 
 <h1 align="center">Oiii! Eu sou o Lucas Sukar 👋</h1>
 <h3 align="center">Instrutor, desenvolvedor front-end e entusiasta de tecnologia 🚀</h3>
@@ -11,7 +13,9 @@
 💻 **Tecnologias que eu uso e estudo:**
 <br><br>
 
-<img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,html,css,python,cs,postgresql,mysql,sqlite,git,github" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,postgres,mysql,sqlite,js,ts,react,html,css,python" />
+</p>
 
 ---
 
@@ -34,12 +38,12 @@
 </div>
 
 ---
-
+<!-- snake -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/output/github-contribution-grid-snake.svg" alt="snake" />
 </p>
 
----
-
-<!-- Animação no rodapé -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4db,100:0083b0&height=120&section=footer"/>
+<!-- footer -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/assets/footer.svg" alt="footer" width="100%"/>
+</p>
