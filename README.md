@@ -13,39 +13,38 @@
 
 ---
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/output/github-contribution-grid-snake.svg" alt="snake" />
-</p>
+<!-- Estatísticas -->
+<div align="center">
+  <h3>📊 Most used languages</h3>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasSukar&layout=compact&langs_count=8&theme=github_dark&hide_border=true" alt="Most used languages" />
+</div>
 
-
----
-
-<!-- Two-column area: table (left) + small card (right) -->
-<table>
-  <tr>
-    <td valign="top">
-      ### Most used languages
-      | Language | % |
-      |---|---:|
-      | JavaScript | 42% |
-      | TypeScript | 18% |
-      | Python | 12% |
-      | C# | 8% |
-      | SQL | 6% |
-    </td>
-    <td valign="top" style="padding-left:20px;">
-      ### Quick stats
-      - ⭐ Stars:  — (adicione manualmente se quiser)
-      - 🛠️ Projects: — 
-      - 🔭 Currently: learning advanced TypeScript
-    </td>
-  </tr>
-</table>
-
----
+<br/>
 
 <div align="center">
-  <br/><br/>
+  <h3>⚡ GitHub Stats</h3>
+  <img src="https://github-readme-stats.vercel.app/api?username=LucasSukar&show_icons=true&theme=github_dark&hide_border=true" alt="GitHub stats" />
+</div>
+
+---
+
+<!-- Cobrinha (Snake Game) -->
+<div align="center">
+  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/output/github-contribution-grid-snake.svg" alt="snake" />
+  
+  <!-- Game interativo (HTML canvas version) -->
+  <br/>
+  <a href="https://github.com/Platane/snk" target="_blank">
+    <img src="https://user-images.githubusercontent.com/22963968/165385477-3a8165ef-4159-49e3-8852-5b3ad0f5e5d3.gif" width="400" alt="Play Snake" />
+  </a>
+  <br/>
+  <em>(Clique para ver o jogo original)</em>
+</div>
+
+---
+
+<!-- Contatos -->
+<div align="center">
   <a href="https://www.instagram.com/lucassukar" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
@@ -57,7 +56,7 @@
   </a>
 </div>
 
-<!-- Footer -->
+<!-- Rodapé -->
 <p align="center">
   <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/assets/header.svg" alt="header" width="100%"/>
 </p>
