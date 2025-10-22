@@ -1,95 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg
-  xmlns="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink"
-  viewBox="0 0 600 200"
-  width="600" height="200"
-  role="img" aria-label="Ryu Hadoken - Lucas Sukar">
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="800" height="200" viewBox="0 0 400 150"
+     role="img" aria-label="Ryu Hadoken (pixel art)">
+  <!-- fundo transparente -->
+  <rect width="100%" height="100%" fill="none"/>
 
-  <!-- fundo escuro (apenas para visualizar; caso quiser transparente, remova) -->
-  <rect width="100%" height="100%" fill="#0b0f13" />
+  <!-- --- RYU PIXEL ART (simples, feito com retângulos) --- -->
+  <!-- Cabeça -->
+  <rect x="30" y="50" width="18" height="18" fill="#f1c27d"/>
+  <rect x="30" y="48" width="18" height="2" fill="#BBB"/> <!-- headband -->
+  <!-- Cabelo -->
+  <rect x="26" y="50" width="6" height="6" fill="#111"/>
+  <rect x="48" y="50" width="6" height="6" fill="#111"/>
+  <!-- Corpo (gi) -->
+  <rect x="26" y="70" width="36" height="24" fill="#fff"/>
+  <rect x="26" y="92" width="36" height="8" fill="#ddd"/> <!-- belt area -->
+  <rect x="40" y="92" width="6" height="8" fill="#000"/> <!-- belt -->
+  <!-- Arms (one punching forward) -->
+  <rect x="8" y="74" width="18" height="6" fill="#f1c27d"/> <!-- left arm (back) -->
+  <rect x="60" y="74" width="22" height="6" fill="#f1c27d"/> <!-- right arm (forward) -->
+  <rect x="80" y="74" width="6" height="6" fill="#fff"/> <!-- sleeve -->
 
-  <!-- --- Pixel Ryu (simples pixel-art feito com retângulos) --- -->
-  <g id="ryu" transform="translate(30,20)">
-    <!-- corpo e roupa (várias 'pixels' como rects) -->
-    <!-- cabeça -->
-    <rect x="10" y="8" width="6" height="6" fill="#f3d7b0"/>
-    <rect x="16" y="8" width="6" height="6" fill="#f3d7b0"/>
-    <rect x="10" y="14" width="12" height="2" fill="#f3d7b0"/>
-    <!-- cabelo -->
-    <rect x="8" y="6" width="4" height="2" fill="#111"/>
-    <rect x="26" y="6" width="4" height="2" fill="#111"/>
-    <rect x="6" y="8" width="4" height="2" fill="#111"/>
-    <rect x="28" y="8" width="4" height="2" fill="#111"/>
-    <!-- faixa na cabeça -->
-    <rect x="12" y="6" width="12" height="2" fill="#e53935"/>
-    <!-- torso (kimono) -->
-    <rect x="8" y="18" width="20" height="10" fill="#dddddd"/>
-    <rect x="8" y="28" width="20" height="6" fill="#cfcfcf"/>
-    <!-- braço -->
-    <rect x="28" y="20" width="6" height="8" fill="#dddddd"/>
-    <rect x="34" y="22" width="4" height="6" fill="#f3d7b0"/>
-    <!-- perna -->
-    <rect x="10" y="34" width="6" height="10" fill="#2b2b2b"/>
-    <rect x="18" y="34" width="6" height="10" fill="#2b2b2b"/>
-    <!-- detalhes - luva -->
-    <rect x="33" y="22" width="2" height="2" fill="#e53935"/>
-    <rect x="35" y="24" width="2" height="2" fill="#e53935"/>
+  <!-- Legs -->
+  <rect x="30" y="100" width="12" height="22" fill="#333"/>
+  <rect x="44" y="100" width="12" height="22" fill="#333"/>
+
+  <!-- Pequenos detalhes para parecer "pixelado" -->
+  <rect x="34" y="60" width="2" height="2" fill="#000"/>
+  <rect x="42" y="60" width="2" height="2" fill="#000"/>
+
+  <!-- --- HADOKEN (bola de fogo) --- -->
+  <!-- desenhada inicialmente perto de Ryu -->
+  <circle id="hadoken" cx="96" cy="83" r="8" fill="#50e3ff" opacity="1">
+    <!-- anima o centro X da bola; id para referência -->
+    <animate id="hadokenAnim" attributeName="cx" from="96" to="360"
+             dur="1.8s" begin="0.5s" fill="freeze" />
+    <!-- pulse (ligeiro aumento de raio enquanto se move) -->
+    <animate attributeName="r" from="6" to="10" dur="0.4s" begin="0.5s" repeatCount="1" fill="freeze"/>
+  </circle>
+
+  <!-- brilho dentro do hadoken -->
+  <circle cx="100" cy="79" r="3" fill="#ffffff" opacity="0.9">
+    <animate attributeName="cx" from="100" to="360" dur="1.8s" begin="0.5s" fill="freeze" />
+  </circle>
+
+  <!-- um rastro sutil (retângulos pixelados deslocando) -->
+  <g id="rastro">
+    <rect x="86" y="80" width="6" height="4" fill="#6fe9ff" opacity="0.35">
+      <animate attributeName="x" from="86" to="340" dur="1.8s" begin="0.5s" fill="freeze"/>
+    </rect>
+    <rect x="78" y="82" width="5" height="3" fill="#7ef0ff" opacity="0.25">
+      <animate attributeName="x" from="78" to="328" dur="1.8s" begin="0.5s" fill="freeze"/>
+    </rect>
   </g>
 
-  <!-- --- Hadoken (bola com efeito pixel/gradiente) --- -->
-  <g id="hadoken" >
-    <!-- criar vários pequenos rects formando um "pixel" bola para o estilo pixelado -->
-    <g id="fire" transform="translate(110,85)">
-      <!-- camada 1 central (branco) -->
-      <rect x="-6" y="-6" width="4" height="4" fill="#fff"/>
-      <rect x="-2" y="-6" width="4" height="4" fill="#00f0ff"/>
-      <rect x="2" y="-6" width="4" height="4" fill="#00f0ff"/>
-      <rect x="-6" y="-2" width="4" height="4" fill="#00c8ff"/>
-      <rect x="-2" y="-2" width="4" height="4" fill="#00a8ff"/>
-      <rect x="2" y="-2" width="4" height="4" fill="#0088ff"/>
-      <rect x="-6" y="2" width="4" height="4" fill="#0068ff"/>
-      <rect x="-2" y="2" width="4" height="4" fill="#0048ff"/>
-      <rect x="2" y="2" width="4" height="4" fill="#0028ff"/>
-    </g>
-  </g>
+  <!-- --- TEXTO QUE SURGE APÓS O HADOKEN (fading in) --- -->
+  <text id="welcomeText" x="200" y="40" text-anchor="middle"
+        font-family="sans-serif" font-size="20" fill="#ffffff" opacity="0">
+    Hello! I'm Lucas Sukar 👋
+    <!-- faz o fade-in quando a animação do hadoken terminar -->
+    <animate attributeName="opacity" from="0" to="1" dur="0.9s"
+             begin="hadokenAnim.end" fill="freeze"/>
+    <!-- leve movimento para cima (opcional, remove se quiser estático) -->
+    <animate attributeName="y" from="46" to="40" dur="0.9s"
+             begin="hadokenAnim.end" fill="freeze"/>
+  </text>
 
-  <!-- --- animação: vamos animar o grupo "fire" movendo em x da posição inicial até a direita --- -->
-  <animateTransform
-    xlink:href="#fire"
-    attributeName="transform"
-    type="translate"
-    from="110 85"
-    to="460 85"
-    begin="0s"
-    dur="2s"
-    fill="freeze"
-    repeatCount="1" />
-
-  <!-- pequena trilha de faíscas (opcional) - aparece e desaparece rapidamente -->
-  <g id="sparks" opacity="0">
-    <rect x="120" y="80" width="2" height="2" fill="#00f0ff"/>
-    <rect x="130" y="78" width="2" height="2" fill="#8df7ff"/>
-    <rect x="140" y="82" width="2" height="2" fill="#5fe7ff"/>
-    <animate attributeName="opacity" from="1" to="0" begin="0.1s" dur="1.6s" fill="freeze" />
-  </g>
-
-  <!-- --- Texto que aparece após o Hadoken atravessar --- -->
-  <g id="label" opacity="0">
-    <text x="300" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" fill="#ffffff">
-      Hello! I'm Lucas Sukar 👋
-    </text>
-    <animateTransform attributeName="transform" type="translate" from="0 6" to="0 0" begin="2s" dur="0.6s" fill="freeze" />
-    <animate attributeName="opacity" from="0" to="1" begin="2s" dur="0.6s" fill="freeze" />
-  </g>
-
-  <!-- efeito "impact" no final (uma pequena expansão) -->
-  <g id="impact" transform="translate(460,85)" opacity="0">
-    <circle cx="0" cy="0" r="4" fill="#7ef7ff" />
-    <animate attributeName="opacity" from="0.9" to="0" begin="1.9s" dur="0.6s" fill="freeze"/>
-    <animate attributeName="r" from="4" to="22" begin="1.9s" dur="0.6s" fill="freeze"/>
-  </g>
-
-  <!-- créditos invisíveis (meta) -->
-  <metadata>Generated for Lucas Sukar - hadoken pixel SVG</metadata>
+  <!-- --- Acessibilidade: descrição (não visível) --- -->
+  <desc>Pixel-art do Ryu lançando um Hadoken; quando a bola passa o texto "Hello! I'm Lucas Sukar" aparece.</desc>
 </svg>
