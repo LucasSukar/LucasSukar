@@ -15,9 +15,9 @@
 ---
 
 <p align="center">
-  <!-- use o SVG dark que você adicionou no repositório -->
-  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/output/github-contribution-grid-snake-dark.svg" alt="snake" />
+  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/output/github-contribution-grid-snake.svg" alt="snake" />
 </p>
+
 
 ---
 
