@@ -1,22 +1,25 @@
-### Oiii! Eu sou o Lucas Sukar 👋  
- desenvolvedor e apaixonado por tecnologia!
+<!-- Animação no topo -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4db,100:0083b0&height=120&section=header"/>
+
+<h1 align="center">Oiii! Eu sou o Lucas Sukar 👋</h1>
+<h3 align="center">Instrutor, desenvolvedor front-end e entusiasta de tecnologia 🚀</h3>
 
 ---
 
-<br>
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=LucasSukar&show_icons=true&theme=radical&include_all_commits=true&count_private=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasSukar&layout=compact&langs_count=8&theme=radical"/>
-
----
 <div align="center">
- 
-<br>
 
-<img src="https://skillicons.dev/icons?i=js,ts,react,html,css,python,cs,git,github" /><br>
+💻 **Tecnologias que eu uso e estudo:**
+<br><br>
+
+<img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,html,css,python,cs,postgresql,mysql,sqlite,git,github" />
 
 ---
-<br>
+
+
+---
+
+📬 **Entre em contato comigo:**
+<br><br>
 
 <a href="https://www.instagram.com/lucassukar" target="_blank">
   <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white"/>
@@ -32,3 +35,11 @@
 
 ---
 
+### 🐍 Cobrinha dos commits
+
+![Snake animation](https://github.com/LucasSukar/LucasSukar/blob/output/github-contribution-grid-snake.svg)
+
+---
+
+<!-- Animação no rodapé -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b4db,100:0083b0&height=120&section=footer"/>
