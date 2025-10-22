@@ -35,9 +35,9 @@
 
 ---
 
-### 🐍 Cobrinha dos commits
-
-![Snake animation](https://github.com/LucasSukar/LucasSukar/blob/output/github-contribution-grid-snake.svg)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/output/github-contribution-grid-snake.svg" alt="snake" />
+</p>
 
 ---
 
