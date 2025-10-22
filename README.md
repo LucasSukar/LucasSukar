@@ -3,20 +3,10 @@
   <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/assets/footer.svg" alt="footer" width="100%"/>
 </p>
 
-<!-- Ryu lançando Hadoken + texto animado (inline SVG corrigido) -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/assets/ryu-hadoken.svg" alt="Ryu Hadoken - Lucas Sukar" width="600"/>
+</p>
 
-  ```html
-<!-- Bola de fogo (Hadoken) -->
-<circle cx="70" cy="95" r="8" fill="#00ccff">
-  <animate attributeName="cx" from="70" to="340" dur="2s" repeatCount="1" fill="freeze" />
-</circle>
-
-<!-- Texto que aparece após o Hadoken -->
-<text x="60" y="50" font-size="22" fill="white" opacity="0">
-  <animate attributeName="opacity" from="0" to="1" begin="2s" dur="1s" fill="freeze" />
-  Hello! I'm Lucas Sukar 🥋
-</text>
-```
 
 
 <div align="center">
