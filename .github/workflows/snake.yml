@@ -22,7 +22,8 @@ jobs:
           github_user_name: LucasSukar
           contribution_width: 53
           contribution_height: 7
-          outputs: dist/github-contribution-grid-snake.svg
+          outputs: dist/github-contribution-grid-snake.svg?palette=github-dark
+
 
       - name: Prepare output folder
         run: |
