@@ -4,7 +4,7 @@
 </p>
 
 <!-- Ryu lançando Hadoken + texto animado (inline SVG corrigido) -->
-<p align="center">
+
   <svg width="400" height="150" viewBox="0 0 400 150" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-label="Ryu Hadoken">
     <!-- Ryu (ícone representativo) -->
     <text x="40" y="100" font-size="32">👊</text>
@@ -20,7 +20,6 @@
       Hello! I'm Lucas Sukar 👋
     </text>
   </svg>
-</p>
 
 <div align="center">
   <h3>📊 Most used languages</h3>
