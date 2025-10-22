@@ -19,10 +19,11 @@ jobs:
       - name: Generate snake SVG
         uses: Platane/snk@v3
         with:
-          github_user_name: LucasSukar       # <<-- seu usuário exato
-          contribution_width: 13
+          github_user_name: LucasSukar
+          contribution_width: 53     # ← mais colunas
           contribution_height: 7
           outputs: dist/github-contribution-grid-snake.svg
+
 
       - name: Prepare output folder
         run: |
