@@ -38,7 +38,7 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/output/github-contribution-grid-snake.svg" alt="snake" />
+  <img src="[https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/output/github-contribution-grid-snake.svg" alt="snake](https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/output/github-contribution-grid-snake-dark.svg)" />
 </p>
 
 ---
