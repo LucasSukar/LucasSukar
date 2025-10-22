@@ -34,8 +34,9 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "chore: update snake animation"
-          file_pattern: output/github-contribution-grid-snake.svg
+          file_pattern: "output/github-contribution-grid-snake.svg"
           branch: main
-          push_options: --force   # 👈 adiciona push forçado para evitar conflito
+          push_options: --force
+          skip_dirty_check: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
