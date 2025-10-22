@@ -6,11 +6,9 @@
 <!-- Animação do Ryu (arquivo externo SVG em /assets) -->
 <!-- Animação do Ryu lançando Hadoken -->
 <!-- Animação do Ryu lançando Hadoken -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/assets/ryu-hadoken.svg" 
-       alt="Ryu Hadoken Animation" 
-       width="500">
-</p>
+🎮 **Hadouken Preview:**
+👉 [Ver animação do Ryu em ação!](https://rawcdn.githack.com/teuUser/teuRepo/main/demo/ryu-hadouken.html)
+
 
 <div align="center">
   <h3>📊 Most used languages</h3>
