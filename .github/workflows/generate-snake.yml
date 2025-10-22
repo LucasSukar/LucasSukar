@@ -8,6 +8,7 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -18,7 +19,7 @@ jobs:
       - name: Generate snake SVG
         uses: Platane/snk@v3
         with:
-          github_user_name: LucasSukar       # <<-- coloque seu usuário exato aqui
+          github_user_name: LucasSukar       # <<-- seu usuário exato
           contribution_width: 13
           contribution_height: 7
           outputs: dist/github-contribution-grid-snake.svg
@@ -34,5 +35,6 @@ jobs:
           commit_message: "chore: update snake animation"
           file_pattern: output/github-contribution-grid-snake.svg
           branch: main
+          push_options: --force        # 👈 força o push para resolver conflitos
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
