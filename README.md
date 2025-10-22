@@ -5,7 +5,7 @@
 
 <!-- Animação do Ryu (arquivo externo SVG em /assets) -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/assets/ryu-hadoken.svg" alt="Ryu Hadoken" width="600" />
+  <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/assets/ryu-hadoken.gif" alt="Ryu Hadoken" width="600" />
 </p>
 
 
