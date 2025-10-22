@@ -4,10 +4,9 @@
 </p>
 
 <h1 align="center">Oiii! Eu sou o Lucas Sukar 👋</h1>
-<h3 align="center">desenvolvedor e amante da tecnologia 🚀</h3>
 
 <div align="center">
-  💻 **Tecnologias que eu uso e estudo:**
+  💻 **Technologies**
   <br/><br/>
   <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,html,css,python,cs,postgresql,mysql,sqlite,git,github" />
 </div>
@@ -46,7 +45,6 @@
 ---
 
 <div align="center">
-  📬 **Entre em contato comigo:**
   <br/><br/>
   <a href="https://www.instagram.com/lucassukar" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white"/>
