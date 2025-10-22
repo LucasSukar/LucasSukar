@@ -4,20 +4,17 @@
 </p>
 
 <h1 align="center">Oiii! Eu sou o Lucas Sukar 👋</h1>
-
-<div align="center">
-  💻 **Technologies**
-  <br/><br/>
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,html,css,python,cs,postgresql,mysql,sqlite,git,github" />
-</div>
-
-
 <!-- Estatísticas -->
 <div align="center">
   <h3>📊 Most used languages</h3>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasSukar&layout=compact&langs_count=8&theme=github_dark&hide_border=true" alt="Most used languages" />
 </div>
----
+<div align="center">
+  <h3>💻 Technologies</h3>
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,html,css,python,cs,postgresql,mysql,sqlite,git,github" />
+</div>
+
 <!-- Cobrinha (Snake Game) -->
 <div align="center">
   <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/output/github-contribution-grid-snake.svg" alt="snake" />
