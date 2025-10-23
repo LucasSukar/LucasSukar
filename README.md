@@ -2,14 +2,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/LucasSukar/LucasSukar/main/assets/footer.svg" alt="footer" width="100%"/>
 </p>
-
-<!-- Animação do Ryu (arquivo externo SVG em /assets) -->
-<!-- Animação do Ryu lançando Hadoken -->
-<!-- Animação do Ryu lançando Hadoken -->
-🎮 **Hadouken Preview:**
-👉 [Ver animação do Ryu em ação!](https://rawcdn.githack.com/teuUser/teuRepo/main/demo/ryu-hadouken.html)
-
-
+<h1 align="center">"Hello! I'm Lucas Sukar 👋</h1>
 <div align="center">
   <h3>📊 Most used languages</h3>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasSukar&layout=compact&langs_count=8&theme=github_dark&hide_border=true" alt="Most used languages" />
