@@ -4,7 +4,6 @@
 </p>
 <h1 align="center">"Hello! I'm Lucas Sukar 👋</h1>
 <div align="center">
-  <h3>📊 Most used languages</h3>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=LucasSukar&layout=compact&langs_count=8&theme=github_dark&hide_border=true" alt="Most used languages" />
 </div>
 
