@@ -10,7 +10,7 @@
 <div align="center">
   <h3>💻 Technologies</h3>
   <br/><br/>
-  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,html,css,python,cs,postgresql,mysql,sqlite,git,github" />
+  <img src="https://skillicons.dev/icons?i=js,ts,react,nodejs,html,css,java,python,cs,postgresql,mysql,sqlite,git,github" />
 </div>
 
 <div align="center">
